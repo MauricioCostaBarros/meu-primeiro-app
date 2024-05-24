@@ -1,0 +1,32 @@
+.cabecalhoClass{
+    height: 120px;
+    justify-content: space-between;
+    border-bottom: 2px solid gray;
+    background-image: url(https://c.wallhere.com/photos/e8/4d/CPU_tech_circuit_circuit_boards_computer_technology-1696951.jpg!d);
+    display: flex;
+}
+
+.nav{
+    background-color: rgb(129, 84, 255);
+}
+#navTelas{
+    font-family: Arial;
+    font-weight: bold;
+    font-size: 70%;
+    align-items: center;
+    width: 85%;
+}
+.tela{
+    margin: 100px;
+    text-decoration: none;
+}
+.botaoTela{
+    height: 50px;
+    width: 100px;
+    background-color: rgba(128, 128, 128, 0.342);
+    font-size: 90%;
+    font-weight: bold;
+}
+button:hover {
+    box-shadow: 0 8px 16px 0 rgba(128, 128, 128, 0.342);; /* adicionar sombra ao passar o mouse no botao */
+}
